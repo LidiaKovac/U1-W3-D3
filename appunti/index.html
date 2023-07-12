@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <button class="ciao">Evento 1</button>
+    <input type="text" onkeyup="leggiContenuto(event)">
+    <input type="color" id="colore" onchange="cambiaColore(event)">
+    <h1>TESTO</h1>
+    <button>Evento 2</button>
+    <button>Evento 3</button>
+    <button>Evento 4</button>
+    <button>Evento 5</button>
+
+    <hr>
+
+
+    <form onsubmit="login(event)">
+        <input type="email" id="email" placeholder="email" >
+        <input type="password" id="password" placeholder="password" >
+        <input type="file" id="propic" >
+
+        <button>Click</button>
+        <!-- button tipo submit -->
+
+    </form>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
