@@ -36,7 +36,7 @@
 - onsubmit => click button[type='submit'], oppure Enter, VA INSERITO SUL FORM!
 
 - SubmitEvent.target => il form che abbiamo submittato
-- Form.element => Array di tutti gli input, tipo `[<input/>, <input/>, <input/>]`
+- Form.elements => Array di tutti gli input, tipo `[<input/>, <input/>, <input/>]`
 - Form.reset() => svuota tutti i campi
 
 ---
