@@ -37,3 +37,6 @@
 
 - SubmitEvent.target => il form che abbiamo submittato
 - Form.element => Array di tutti gli input, tipo `[<input/>, <input/>, <input/>]`
+
+- DOM => Document Object Model
+- BOM => Browser Object Model

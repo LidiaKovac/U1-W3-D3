@@ -51,11 +51,11 @@ const cambiaColore = (changeEvent) => {
 }
 
 //! FORMS
-
+//? Come prenderli? 
 //document.forms[0]
 //document.querySelector("form")
 
-//!
+//! Sintassi oggetti alternativa
 // credenziali["nome"]
 // const prop = "nome"
 // credenziali[prop]

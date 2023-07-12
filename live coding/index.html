@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 
+        !pagina che prenda tutti i dati degli appuntamenti e li mostri in una lista 
+        TODO: Form che prenda i dati degli appuntamento 
+            * Nome dell'appuntamento
+            * Data 
+            * Luogo
+            * Colore 
+        TODO: Uno spazio che mostri gli appuntamenti
+     -->
+
+    <form onsubmit="aggiungiAppuntamento(event)">
+        <input type="text" id="nome" placeholder="Inserisci il titolo" required>
+        <input type="datetime-local" id="data"  required>
+        <input type="text" id="luogo" placeholder="Dove?" required>
+        <input type="color" id="colore" required>
+
+        <!-- submit di default -->
+        <button>Prenota</button>
+    </form>
+    
+    <h1>I miei appuntamenti</h1>
+    <div class="appuntamenti"></div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
